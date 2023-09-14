@@ -26,7 +26,7 @@ public class TestShoppingCartPage extends BaseClass {
         abortDriver();
     }
 
-    @Test
+    @Test(groups = {"runAll","sanity"})
     public void testNavigateToAddressPage() {
         indexPage = new IndexPage();
         signInPage = indexPage.navigateToSignInPage();

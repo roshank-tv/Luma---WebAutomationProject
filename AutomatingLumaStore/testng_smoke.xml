@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="smoke">
+        <classes>
+            <class name="com.lumastore.testcases.TestIndexPage" />
+            <class name="com.lumastore.testcases.TestSignInPage" />
+            <class name="com.lumastore.testcases.TestHomePage" />
+            <class name="com.lumastore.testcases.TestAddressPage" />
+            <class name="com.lumastore.testcases.TestPaymentPage" />
+            <class name="com.lumastore.testcases.TestProductPage" />
+            <class name="com.lumastore.testcases.TestSearchResultPage" />
+            <class name="com.lumastore.testcases.TestShoppingCartPage" />
+        </classes>
+    </test>
+</suite>

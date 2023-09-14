@@ -26,7 +26,7 @@ public class TestMyOrdersPage extends BaseClass {
         abortDriver();
     }
 
-    @Test
+    @Test(groups = {"runAll","sanity"})
     public void testingNavigateToMyOrdersPage() {
         indexPage = new IndexPage();
         signInPage = indexPage.navigateToSignInPage();

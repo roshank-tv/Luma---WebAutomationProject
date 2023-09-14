@@ -26,7 +26,7 @@ public class TestMyWishListPage extends BaseClass {
         abortDriver();
     }
 
-    @Test
+    @Test(groups = {"runAll","sanity"})
     public void testingNavigateToMyWishListPage() {
         indexPage = new IndexPage();
         signInPage = indexPage.navigateToSignInPage();

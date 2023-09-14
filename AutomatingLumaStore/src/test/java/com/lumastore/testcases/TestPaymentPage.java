@@ -28,7 +28,7 @@ public class TestPaymentPage extends BaseClass {
         abortDriver();
     }
 
-    @Test
+    @Test(groups = {"runAll","smoke"})
     public void testOrderPlaced() {
         indexPage = new IndexPage();
         signInPage = indexPage.navigateToSignInPage();

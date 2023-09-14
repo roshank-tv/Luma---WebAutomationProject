@@ -23,7 +23,7 @@ public class TestSignInPage extends BaseClass {
         abortDriver();
     }
 
-    @Test
+    @Test(groups = {"runAll","smoke"})
     public void testingNavigateToHomePage () {
         indexPage = new IndexPage();
         signInPage = indexPage.navigateToSignInPage();

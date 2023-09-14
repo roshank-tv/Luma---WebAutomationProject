@@ -31,12 +31,12 @@ public class TestFilterPage extends BaseClass {
         abortDriver();
     }
 
-    @Test
+    @Test(groups = {"runAll","sanity"})
     public void testingNavigateToFilterPage() {
         Assert.assertEquals(driver.getTitle(), "Jackets - Tops - Men", "Title Not Matching!!");
     }
 
-    @Test
+    @Test(groups = {"runAll","sanity"})
     public void testingProductFiltering() {
         String msg;
         msg = filterPage.selectingBlackColorFilter();
